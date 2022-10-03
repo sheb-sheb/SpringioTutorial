@@ -19,8 +19,8 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);//launches application without xml
     }
-
-    @Bean
+    //bean is an object
+    @Bean //tells spring boot that method returns a bean that it needs to handle
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 

@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class penis {
     @GetMapping("/penis/")
     public String penisPage() {
-        return "penis";
+        final String output = "penis page";
+        return output;
+
     }
 }
