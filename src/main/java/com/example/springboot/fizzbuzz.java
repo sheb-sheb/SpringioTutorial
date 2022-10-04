@@ -14,10 +14,9 @@ public class fizzbuzz {
                 output.append("FizzBuzz ");
             } else if (i%5 == 0) {
                 output.append("Fizz ");
-            } else if (i%3 == 0) {
-                output.append("Buzz ");
-            } else {
-                output.append(i + " ");
+            } else if (i%3 == 0) output.append("Buzz ");
+            else {
+                output.append(i).append(" ");
             }
         }
         return output;

@@ -19,9 +19,7 @@ public class ReverseString {
                 makeCapitol = false;
             } else {
                 output.append(string.charAt(i));
-                if (string.charAt(i) == ' ') {
-                    makeCapitol = true;
-                }
+                if (string.charAt(i) == ' ') makeCapitol = true;
             }
         }
         return output;
